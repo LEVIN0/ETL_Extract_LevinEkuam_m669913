@@ -17,3 +17,21 @@ All code is implemented in Python using pandas within a Jupyter Notebook.
 
 ## 📁 Repository Contents
 
+
+---
+
+## ⚙️ Tools Used
+
+- Python 3
+- pandas
+- Jupyter Notebook
+- Git & GitHub
+
+---
+
+## ▶️ How to Run
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/<YourUsername>/ETL_Extract_LevinEkuam_m669913.git
