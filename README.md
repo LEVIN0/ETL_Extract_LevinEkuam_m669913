@@ -38,6 +38,25 @@ Dataset used: custom_data.csv
 
 ## Files used 
 etl_extract.ipynb: Notebook with all ETL logic.
+
+
+
+![image](https://github.com/user-attachments/assets/5b22d150-c461-4ae0-a51f-bafcb74adf23)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 custom_data.csv: Generated dataset.
 last_extraction.txt: Timestamp for incremental extraction.
 .gitignore: To ignore unneeded files in Git.
