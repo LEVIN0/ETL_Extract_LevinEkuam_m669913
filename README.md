@@ -35,6 +35,7 @@ Open etl_extract.ipynb in Jupyter.
 Run all cells to perform full extraction and simulate incremental extraction.
 Dataset used: custom_data.csv
 
+## Files used 
 etl_extract.ipynb: Notebook with all ETL logic.
 custom_data.csv: Generated dataset.
 last_extraction.txt: Timestamp for incremental extraction.
