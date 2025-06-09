@@ -22,10 +22,11 @@ All code is implemented in Python using pandas within a Jupyter Notebook.
 
 ## ⚙️ Tools Used
 
-- Python 3
-- pandas
-- Jupyter Notebook
-- Git & GitHub
+- **Python 3.12+**: The primary programming language for the project.
+- **pandas**: Used for data manipulation and CSV file handling.
+- **Faker**: A library for generating synthetic data to populate the dataset.
+- **Jupyter Notebook**: The environment for coding, documenting, and testing the ETL extraction logic.
+- **Git/GitHub**: Version control and submission platform.
 
 ---
 
