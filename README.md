@@ -31,7 +31,12 @@ All code is implemented in Python using pandas within a Jupyter Notebook.
 
 ## ▶️ How to Run
 
-1. **Clone the repository**:
+Open etl_extract.ipynb in Jupyter.
+Run all cells to perform full extraction and simulate incremental extraction.
+Dataset used: custom_data.csv
 
-   ```bash
-   git clone https://github.com/<YourUsername>/ETL_Extract_LevinEkuam_m669913.git
+etl_extract.ipynb: Notebook with all ETL logic.
+custom_data.csv: Generated dataset.
+last_extraction.txt: Timestamp for incremental extraction.
+.gitignore: To ignore unneeded files in Git.
+
