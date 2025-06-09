@@ -38,26 +38,16 @@ Dataset used: custom_data.csv
 
 ## Files used 
 etl_extract.ipynb: Notebook with all ETL logic.
-
-
-
-![image](https://github.com/user-attachments/assets/5b22d150-c461-4ae0-a51f-bafcb74adf23)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 custom_data.csv: Generated dataset.
 last_extraction.txt: Timestamp for incremental extraction.
 .gitignore: To ignore unneeded files in Git.
+
+## screenshots
+
+![image](https://github.com/user-attachments/assets/f343c350-be8f-411a-b94d-59697c6e3885)
+through this we can see that we performed a full extraction and it pulled all 100 rows and then we went on to perform a incremental extraction where it pulled 34 rows since it was last updated
+
+![image](https://github.com/user-attachments/assets/e107c265-6867-4d9c-b54c-fb428746d90d)
+we then went on to save the new updated time stamp so that the next time data is pulled it will be pulled from this new date
+
 
