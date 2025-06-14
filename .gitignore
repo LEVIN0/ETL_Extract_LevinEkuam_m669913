@@ -1,5 +1,9 @@
 .ipynb_checkpoints/
+<<<<<<< HEAD
 __pycache__/
+=======
+_pycache_/
+>>>>>>> 2271d531bc2d0adbf3a6f746c61900a1a406cf82
 *.log
 *.sqlite
 last_extraction.txt
