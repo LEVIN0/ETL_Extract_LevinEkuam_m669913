@@ -50,4 +50,47 @@ through this we can see that we performed a full extraction and it pulled all 10
 ![image](https://github.com/user-attachments/assets/e107c265-6867-4d9c-b54c-fb428746d90d)
 we then went on to save the new updated time stamp so that the next time data is pulled it will be pulled from this new date
 
+---
+
+## 🔄 Data Transformation (Lab 4 Update)
+
+This update extends the ETL pipeline with data transformation logic. Transforming the full and incremented dataset
+
+l was able to save the incremented data into its own csv file to help with the lab
+![image](https://github.com/user-attachments/assets/33d59127-b92c-4be7-91c8-29a97571ecd0)
+
+
+### ✅ Transformations Applied
+
+1. **Cleaning**
+   - checking for duplicates and missing values if any and removing them
+     ![image](https://github.com/user-attachments/assets/264b793b-f525-468a-bc88-602941cc17d5)
+     ![image](https://github.com/user-attachments/assets/6adaa1f8-586c-446b-a746-fef2a9df0d1c)
+
+     there were no duplicates and missing values in the dataset as shown in the images above 
+
+
+
+2. **Enrichment**
+   - Added a new column `total_price` which computes the price of the product * quantity to show the amount used by the customer
+   - Added a column called `customer_type` which classifies the customer to either VIP for spending more than 1000 or regular for spending less than 1000
+   - ![image](https://github.com/user-attachments/assets/3943df68-98cc-498e-bf77-abf123cf8f3e)
+   - ![image](https://github.com/user-attachments/assets/d17acd81-32f2-4a49-9bda-00fc5dd66515)
+
+
+
+3. **Structural**
+   - this is to ensure that all the columns of the dataset are of the required type and to change where it is not
+   - ![image](https://github.com/user-attachments/assets/17a936df-3402-48f8-bcff-2c51f14ddc53)
+
+   - ![image](https://github.com/user-attachments/assets/bb3bee4d-c23c-46bb-8ef2-dcce678e3c96)
+   -  since all the columns of both datasets were of the right type, no change was made
+
+
+### 📁 New Output Files
+
+- `transformed_full.csv`: Cleaned and enriched full dataset
+- `transformed_incremental.csv`: Cleaned and enriched incremental dataset
+
+
 
