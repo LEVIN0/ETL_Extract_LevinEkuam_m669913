@@ -92,5 +92,21 @@ l was able to save the incremented data into its own csv file to help with the l
 - `transformed_full.csv`: Cleaned and enriched full dataset
 - `transformed_incremental.csv`: Cleaned and enriched incremental dataset
 
+  ### Lab 5 – Load
+
+**Loading Method**: Saved transformed datasets as Parquet files using pandas.
+![image](https://github.com/user-attachments/assets/7d7e4cd7-8090-4804-a096-3a53dc8aa319)
+- l began by importing the necessary libraries and defining the paths to save and load and then loaded the data
+  ![image](https://github.com/user-attachments/assets/fc3f77d1-e1d8-45c7-bf63-ef32165065ab)
+  - l then loaded the files and showed previews of them using there first 5 records 
+
+
+
+**Code Snippet**:
+```python
+df_full = pd.read_csv('transformed_full.csv')
+df_full.to_parquet('loaded_data/full_data.parquet', index=False)
+
+
 
 
