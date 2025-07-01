@@ -7,3 +7,6 @@ _pycache_/
 *.log
 *.sqlite
 last_extraction.txt
+*.db
+*.parquet
+loaded_data/
